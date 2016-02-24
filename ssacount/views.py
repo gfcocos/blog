@@ -3,7 +3,10 @@ from django.http import HttpResponse
 from django.core.signing import Signer
 from .models import SSAcount
 import base64
-from time import gmtime, strftime
+from datetime import datetime
+# from django.utils.dateformat import DateFormat
+# from django.utils.formats import get_format        
+# from time import gmtime, strftime
 # Create your views here.
 def index(request):
     return HttpResponse("Hello World, Django")
@@ -22,7 +25,7 @@ def acounts(request):
             aes = aes.replace(' ','')
             acount.server_aes = aes
             acount.save()
-        t = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        t = datetime.now().strftime('%m-%d-%y %H:%M:%S');
         output = ('{ "local_port": %s, "method": "%s", "password": "%s", "server": "%s", "server_aes": "%s", "server_port": "%s" , "time": "%s"}' % (1080, acount.method, acount.password, acount.server, acount.server_aes, acount.server_port,t))
         return HttpResponse(output)
     else:
