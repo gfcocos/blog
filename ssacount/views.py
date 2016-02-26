@@ -5,11 +5,13 @@ from .models import SSAcount
 import base64
 from datetime import datetime
 # from django.utils.dateformat import DateFormat
+from ipware.ip import get_ip
 # from django.utils.formats import get_format        
 # from time import gmtime, strftime
 # Create your views here.
 def index(request):
-    return HttpResponse("Hello World, Django")
+    ip = get_ip(request)
+    return HttpResponse(ip)
 
 
 def detail(request, my_args):

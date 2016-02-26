@@ -25,6 +25,7 @@ class SSAcount(models.Model):
     method = models.CharField(max_length=50)
     password = models.CharField(max_length=50)
     ping = models.IntegerField()
+    url = models.CharField(max_length=100,default='',blank=True)
 
     def __str__(self):              # __unicode__ on Python 2
         return self.server

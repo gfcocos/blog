@@ -9,7 +9,7 @@ class SSAcountAdmin(admin.ModelAdmin):
     # fields = ['server', 'server_port', 'method', 'password']
 
     # list dispaly
-    list_display = ('server', 'server_aes', 'server_port', 'method', 'password', 'ping')
+    list_display = ('server', 'server_aes', 'server_port', 'method', 'password', 'ping', 'url')
 
 # admin.site.register(SSAcount, SSAcountAdmin)
 admin.site.register(SSAcount, SSAcountAdmin)
