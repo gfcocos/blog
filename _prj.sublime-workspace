@@ -1,0 +1,315 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"de",
+				"default"
+			],
+			[
+				"s",
+				"server"
+			],
+			[
+				"ch",
+				"ciphert"
+			],
+			[
+				"in",
+				"insert"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/f/blog/log/models.py",
+			"settings":
+			{
+				"buffer_size": 578,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pci",
+		"selected_items":
+		[
+			[
+				"pci",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/f/blog/log",
+		"/f/blog/ssacount"
+	],
+	"file_history":
+	[
+		"/C/wp_trunk/Assets/Scripts/UI/FrameLogic/ChatScript/ChatMainWnd2.cs",
+		"/C/Users/happyyi/Desktop/Chat/NGUIText.cs",
+		"/C/Users/happyyi/Desktop/Chat/UILabel.cs",
+		"/C/Users/happyyi/Desktop/Chat/Script/FChatItem.cs",
+		"/C/Users/happyyi/Desktop/Chat/Script/FChatLabel.cs",
+		"/C/wp_trunk/ResDB_CS/a.py",
+		"/C/Users/happyyi/AppData/Local/Temp/scp32733/usr/lib/lua/luci/model/cbi/njitclient.lua",
+		"/C/Users/happyyi/AppData/Local/Temp/scp42398/root/ss.py",
+		"/C/Users/happyyi/Desktop/njitclient.lua",
+		"/C/Users/happyyi/AppData/Local/Temp/scp33460/root/ss-status",
+		"/C/Users/happyyi/AppData/Local/Temp/scp22189/usr/lib/lua/luci/model/cbi/njitclient.lua",
+		"/C/Users/happyyi/AppData/Local/Temp/scp13315/root/ss.py",
+		"/C/Users/happyyi/AppData/Local/Temp/scp54187/usr/lib/lua/luci/model/cbi/njitclient.lua",
+		"/F/openwrt/backup/log/config_network.log",
+		"/C/Users/happyyi/AppData/Local/Temp/scp31599/usr/lib/lua/luci/controller/njitclient.lua",
+		"/C/Users/happyyi/AppData/Local/Temp/scp25831/usr/lib/lua/luci/controller/njitclient.lua",
+		"/C/Users/happyyi/AppData/Local/Temp/scp04191/etc/shadowsocks.json",
+		"/C/Users/happyyi/AppData/Local/Temp/scp26897/usr/lib/lua/luci/model/cbi/njitclient.lua",
+		"/C/Users/happyyi/Desktop/,",
+		"/C/_SoftWare/Git/bin/subl",
+		"/C/_SoftWare/Git/bin/vscode",
+		"/D/Program Files/Sublime Text 3/a.txt",
+		"/D/搜狗高速下载/new_voice_tutorial/new_voice_tutorial/Assets/Plugins/Android/AndroidManifest.xml",
+		"/D/搜狗高速下载/new_voice_tutorial/new_voice_tutorial/Cache/apollo_20150901-17.31.08.log",
+		"/D/搜狗高速下载/new_voice_tutorial/new_voice_tutorial/Assets/Plugins/Android/assets/apollo_voice/config.json",
+		"/D/搜狗高速下载/new_voice_tutorial/new_voice_tutorial/Assets/Editor/ExportAssetBundles.cs",
+		"/E/Voice/dd/Voice/Voice/src/com/tencent/test/UnityPlayerNativeActivity.java",
+		"/E/Voice/dd/Voice/Voice/AndroidManifest.xml",
+		"/E/Voice/dd/Voice/Voice/src/com/tencent/test/UnityPlayerProxyActivity.java",
+		"/E/Voice/dd/Voice/Voice/src/com/tencent/test/UnityPlayerActivity.java",
+		"/E/Voice/Assets/Plugins/Android/AndroidManifest.xml",
+		"/D/搜狗高速下载/new_voice_tutorial/new_voice_tutorial/Doc/config.ini",
+		"/E/Voice/dd/Voice/Voice/project.properties",
+		"/C/Users/happyyi/AppData/Local/Temp/scp51539/usr/lib/lua/luci/controller/njitclient.lua",
+		"/C/Users/happyyi/AppData/Local/Temp/scp50778/usr/lib/lua/luci/model/cbi/njitclient.lua",
+		"/E/Voice/dd/Voice/Voice/Voice/AndroidManifest.xml",
+		"/C/Users/happyyi/AppData/Local/Temp/scp59083/usr/lib/lua/luci/view/njitclient/njitclient.htm",
+		"/C/Users/happyyi/AppData/Local/Temp/scp37203/usr/lib/lua/luci/model/cbi/admin_system/admin.lua",
+		"/C/Users/happyyi/AppData/Local/Temp/scp48510/usr/lib/lua/luci/controller/admin/system.lua",
+		"/C/Users/happyyi/AppData/Local/Temp/scp04956/root/ss.py",
+		"/C/Users/happyyi/AppData/Local/Temp/scp33637/usr/lib/lua/luci/xor.lua",
+		"/C/Users/happyyi/AppData/Local/Temp/scp36188/usr/lib/lua/luci/sys.lua",
+		"/E/ss.lua",
+		"/C/Users/happyyi/AppData/Local/Temp/scp04919/root/ss-config",
+		"/C/Users/happyyi/AppData/Local/Temp/scp02342/root/ss-status",
+		"/C/Users/happyyi/AppData/Local/Temp/scp31989/usr/lib/lua/luci/view/indexer.htm",
+		"/C/Users/happyyi/AppData/Local/Temp/scp11094/usr/lib/lua/luci/view/admin_system/reboot.htm",
+		"/C/Users/happyyi/AppData/Local/Temp/scp42769/www/index.html",
+		"/C/Users/happyyi/AppData/Local/Temp/scp40994/usr/lib/lua/luci/i18n/base.zh-cn.lmo",
+		"/C/Users/happyyi/AppData/Local/Temp/scp30135/usr/lib/lua/luci/view/admin_status/index.htm",
+		"/C/Users/happyyi/AppData/Local/Temp/scp38902/usr/lib/lua/luci/model/cbi/admin_system/system.lua",
+		"/C/Users/happyyi/AppData/Local/Temp/scp10555/usr/lib/lua/luci/view/firewall/cbi_addsnat.htm",
+		"/D/搜狗高速下载/AppsFlyerUnityPlugin-master/AppsFlyerUnityPlugin-master/Assets/Plugins/Android/src/AppsFlyerOverrideActivity.java",
+		"/D/搜狗高速下载/AppsFlyerUnityPlugin-master/AppsFlyerUnityPlugin-master/Assets/Plugins/Android/AndroidManifest.xml",
+		"/C/Users/happyyi/AppData/Local/Temp/scp48777/usr/lib/lua/luci/view/njitclient.htm",
+		"/C/Users/happyyi/AppData/Local/Temp/scp54681/usr/lib/lua/luci/view/header.htm",
+		"/D/搜狗高速下载/AppsFlyerUnityPlugin-master/AppsFlyerUnityPlugin-master/Assets/Plugins/AppsFlyer.cs",
+		"/E/Voice/dd/Voice/src/com/tencent/test/UnityPlayerNativeActivity.java"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"basic",
+			"\\",
+			":default",
+			":",
+			":default",
+			"password",
+			"cipher",
+			"luci",
+			"cipher",
+			"form",
+			"action_reboot"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/f/blog/log/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 191.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "_prj.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 341.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

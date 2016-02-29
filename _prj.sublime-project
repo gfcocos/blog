@@ -1,0 +1,30 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\""
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "f:\\blog"
+		}
+	],
+	"settings":
+	{
+		"tab_size": 4,
+		"translate_tabs_to_spaces": true,
+		// 保存时自动去除行末空白
+	    "trim_trailing_white_space_on_save": true,
+	    // 保存时自动增加文件末尾换行
+	    "ensure_newline_at_eof_on_save": true,
+	    // 默认编码格式
+	    "default_encoding": "UTF-8",
+	    "anaconda_linter_mark_style": "none",
+	    "anaconda_gutter_theme": "alpha",
+	}
+}
