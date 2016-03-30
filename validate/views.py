@@ -8,7 +8,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
-WEIXIN_TOKEN = 'juye_one_dolor'
+WEIXIN_TOKEN = 'happyyi'
  
 @csrf_exempt
 def index(request):
