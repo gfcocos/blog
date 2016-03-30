@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.conf.urls import include
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^', include('ssacount.urls')),
+    url(r'^ssacount/', include('ssacount.urls')),
     url(r'^log/', include('log.urls')),
+    url(r'^', include('validate.urls')),
 ]
