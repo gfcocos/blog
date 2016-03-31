@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ssacount',
     'log',
-    'validate'
+    'validate',
+    'auto_reply'
 ]
 
 MIDDLEWARE_CLASSES = [

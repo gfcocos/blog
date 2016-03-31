@@ -1,17 +1,23 @@
-#coding=utf-8
+# coding=utf-8
+
 import hashlib
-import json
+# import json
 # from lxml import etree
 from django.utils.encoding import smart_str
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse
-from django.shortcuts import render
+# from django.shortcuts import render
+from lxml import etree
+from auto_reply.views import auto_reply_main
 
 # Create your views here.
 WEIXIN_TOKEN = 'happyyi'
- 
+
+
 @csrf_exempt
 def index(request):
+    """所有的消息都会先进入这个函数进行处理，函数包含两个功能，如果请求时get，说明是微信接入验证，如果是post就是微信正常的收发消息。"""
+
     if request.method == "GET":
         signature = request.GET.get("signature", None)
         timestamp = request.GET.get("timestamp", None)
