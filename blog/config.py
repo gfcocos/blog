@@ -1,3 +1,3 @@
 # coding=utf-8
 WEIXIN_TOKEN = "happyyi"
-WEIXIN_ID = "wxed8b19ed94e4918c"
+WEIXIN_ID = "gh_4a8aa37e0887"

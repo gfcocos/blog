@@ -7,6 +7,9 @@ from django.http import HttpResponse
 from lxml import etree
 from auto_reply.models import Keyword, Reply
 from auto_reply.reply import auto_reply
+import logging
+# Get an instance of a logger
+logger = logging.getLogger('django.request')
 
 # Create your views here.
 
@@ -30,19 +33,20 @@ def find_keyword(content):
 
 def find_reply(from_username, content):
     # '''查找文本消息是否有对应的回复  如果没有的话 进行中文分词 并再次判断'''    
-    reply = find_keyword(content)
+    reply = False#find_keyword(content)
     if reply is False:
         # 直接查找没有找到对应的回复，这个时候对content进行中文分词
-        segment_result = chinese_segment(content)
-        segment_length = len(segment_result)
-        while segment_length:
-            segment_length -= 1
-            content = segment_result[segment_length]["word"]
-            reply = find_keyword(content)
-            if reply is False:
-                continue
-            else:
-                return auto_reply(from_username, content)
+        # segment_result = chinese_segment(content)
+        # segment_length = len(segment_result)
+        # while segment_length:
+        #     segment_length -= 1
+        #     content = segment_result[segment_length]["word"]
+        #     reply = find_keyword(content)
+        #     if reply is False:
+        #         continue
+        #     else:
+        #         return auto_reply(from_username, content)
+        logger.debug('reply is False')
         return auto_reply(from_username, u"没有找到合适的回复")
     else:
         return auto_reply(from_username, content)
@@ -53,6 +57,7 @@ def auto_reply_main(request_xml):
     """
     msg_type = request_xml.find("MsgType").text
     from_user_name = request_xml.find("FromUserName").text
+    logger.debug(msg_type +':'+ from_user_name)
     if msg_type == "text":
         content = request_xml.find("Content").text
         return HttpResponse(find_reply(from_user_name, content))
